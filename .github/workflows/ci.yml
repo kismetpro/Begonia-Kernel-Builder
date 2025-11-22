@@ -8,7 +8,7 @@ on:
 jobs:
   check-updates:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'cvnertnc' && github.repository == 'cvnertnc/Begonia-Kernel-Builder'
+    if: github.repository_owner == 'kismetpro' && github.repository == 'kismetpro/Begonia-Kernel-Builder'
 
     steps:
       - name: Checkout the repository
